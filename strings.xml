@@ -4,8 +4,8 @@
     <string name="help">Ayuda / Preguntas Frecuentes</string>
 
     <!-- Navigation Drawer -->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
     <string name="home">INICIO</string>
     <string name="books">Libros</string>
     <string name="comics">Cómics</string>
@@ -24,7 +24,7 @@
     <string name="search_hint">Buscar : libro, autor, …</string>
 
     <!-- Sort options -->
-    <string name="book_sort_options_value">%1$d %2$libros ordenados por %3$s</string>
+    <string name="book_sort_options_value">%1$d %2$slibros ordenados por %3$s</string>
     <string name="comic_sort_options_value">%1$d %2$scómics ordenados por %3$s</string>
     <string name="sort_by_author">Ordenar por autor</string>
     <string name="author">autor</string>
@@ -32,19 +32,19 @@
     <string name="title_min">título</string>
     <string name="sort_by">Ordernar por</string>
     <string name="unread">Sin leer</string>
-    <string name="unread_b_p">sin leer </string>
-    <string name="unread_c_p">leer</string>
-    <string name="read_b_p">leído</string>
-    <string name="read_c_p">leído</string>
+    <string name="unread_book_plural">sin leer</string>
+    <string name="unread_comic_plural">leer</string>
+    <string name="read_book_plural">leído</string>
+    <string name="read_comic_plural">leído</string>
     <string name="all_categories">Todas las categorías</string>
     <string name="validate">Validar</string>
 
     <!-- Book -->
-    <string name="book_informations">Información<string>
+    <string name="book_informations">Información</string>
     <string name="book_notes">Notas</string>
     <string name="pages_count">%d páginas</string>
     <string name="title">Título</string>
-    <string name="lastname_only">Sólo Apellido </string>
+    <string name="lastname_only">Sólo Apellido</string>
     <string name="firstname">Nombre</string>
     <string name="lastname">Apellido</string>
     <string name="summary">Resúmen</string>
@@ -68,7 +68,8 @@
     <string name="modify_book">Modificar libro</string>
     <string name="import_database">Importar biblioteca</string>
     <string name="export_database">Exportar biblioteca</string>
-    <string name="caution">PRECAUCIÓN</string>
+    <string name="caution_caps">PRECAUCIÓN</string>
+    <string name="caution">Precaución</string>
     <string name="error">Error</string>
     <string name="book_deleted">Libro borrado</string>
     <string name="comic_deleted">Cómic borrado</string>
@@ -82,8 +83,8 @@
 
     <!-- Popup content -->
     <string name="isbn_number">Número ISBN</string>
-    <string name="write_permission_denied_warning">Usted ha prohibido permiso a grabar. :(\nPara añadir portadas o para exportar/importar su biblioteca, se necesita este permiso. Desea aceptar este permiso?</string>
-    <string name="camera_permission_denied_warning">Usted ha prohibido acceso a la cámara. :(\nPara poder  escanear código de barras y tomar fotos, se necesita este permiso. Desea aceptar este permiso?</string>
+    <string name="write_permission_denied_warning">Usted ha denegado permiso de escritura. :(\nPara añadir portadas o para exportar/importar su biblioteca, se necesita este permiso. Desea aceptar este permiso?</string>
+    <string name="camera_permission_denied_warning">Usted ha denegado acceso a la cámara. :(\nPara poder  escanear código de barras y tomar fotos, se necesita este permiso. Desea aceptar este permiso?</string>
     <string name="save_mylibrarydb">Guardar biblioteca para importe futuro</string>
     <string name="save_mylibraryxls">Crear documento Excel<i>MiBiblioteca.xls</i></string>
     <string name="save_mylibrarybyauthorxls">Crear documento Excel <i>MiBibliotecaPorAutor.xls</i></string>
@@ -100,8 +101,8 @@
     <string name="add_book_manually">Añadir libro manualmente</string>
     <string name="isbn_search">Buscar por ISBN</string>
     <string name="open_app_settings">Abrir configuracion del app para aceptar permisos</string>
-    <string name="dont_want_to_use_these_features">No quiero usar estas funcionalidades, cierra este mensaje. </string>
-    <string name="dont_want_to_use_this_feature">No quiero usar esta funcionalidad, cierra este mensaje.</string>
+    <string name="dont_want_to_use_these_features">No quiero usar estas característica, cierra este mensaje.</string>
+    <string name="dont_want_to_use_this_feature">No quiero usar esta característica, cierra este mensaje.</string>
 
     <!-- Textview errors -->
     <string name="error_title_needed">Se necesita un título</string>
@@ -136,8 +137,8 @@
     <string name="override_library">Anular biblioteca actual</string>
     <string name="warning_override_library_1">Advertencia : su biblioteca actual sea borrada por la biblioteca importada.</string>
     <string name="warning_override_library_2">Advertencia : combinar la biblioteca actual y la importada puede resultar en duplicados.</string>
-    <string name="import_db_from_mylibraryxls">Importar biblioteca de documento \'MiBiblioteca.xls\' </string>
-    <string name="import_db_from_mylibrarydb">Importar biblioteca de documento \'mylibrary.db\' </string>
+    <string name="import_db_from_mylibraryxls">Importar biblioteca de documento \'MiBiblioteca.xls\'</string>
+    <string name="import_db_from_mylibrarydb">Importar biblioteca de documento \'mylibrary.db\'</string>
     <string name="export_message_importing_database">Importando base de datos…</string>
     <string name="recovering_images">Recuperando imágenes de MiBibliotecaImagenes.txt …</string>
     <string name="nb_images_recovered">"\n%d portadas recuperadas"</string>
@@ -147,7 +148,7 @@
     <string name="wait_for_completion">Por favor, espere por %s completar</string>
 
     <!-- Backup : success messages -->
-    <string name="database_saved">Su biblioteca ha sido guardada en su directorio Download</string>
+    <!--<string name="database_saved">Su biblioteca ha sido guardada en su directorio Download</string>-->
     <string name="database_recovered">Su biblioteca ha sido recuperada exitosamente!</string>
 
     <!-- Backup : error messages -->
@@ -200,8 +201,8 @@
     <!-- Rating -->
     <string name="please_rate">Usted es uno de nuestros usuarios mas dedicados. Al darle 5 estrellas a nuestro app en Google Play, usted apoyara la creacion de este aplicacion independiente, gratis y sin anuncios. \n\nDesea calificar Mi Biblioteca en Google Play?</string>
     <string name="rating_yes">¡Sí!</string>
-    <string name="rating_later">Quizas luego...</string>
-    <string name="rating_no">No, gracias.</string>
+    <string name="maybe_later">Quizas luego…</string>
+    <string name="no_thank_you">No, gracias.</string>
 
     <!-- Help -->
     <string name="help_read_books_question">¿Puedo leer libros en Mi Biblioteca?</string>
@@ -231,19 +232,19 @@
     <!--<string name="help_mylibrary_xls_import_question">Can I import a library from a XLS file?</string>-->
     <!--<string name="help_mylibrary_xls_import_answer">No you can\'t, at least not for now. To import a library, you need first to export it with the \"Save library for future imports\" box option checked.</string>-->
     <string name="help_import_xls_required_format_question">¿Cual es el formato requerido (nombres de hojas, nombres de columnas, etc.) para hacer un importe de Excel?</string>
-    <string name="help_import_xls_required_format_answer">El documento Excel a ser importado debe tener un formato en particular para poder ser importado. La mejor forma de ver este formato es añadiendo por lo menos un libro a su biblioteca, hacer un exporte de Excel y ver el formato del documento Excel que ha sido exportado. El formato del documento exportado es el mismo al formato requerido para importe. </string>
-    <string name="help_incomplete_xls_file_question">My exported XLS file is not complete!</string>
-    <string name="help_incomplete_xls_file_answer">The XLS file is fine, the problem comes from your computer : just unplug your phone from it and replug it, that should solve your issue.</string>
-    <string name="help_xls_comics_question">I can\'t find my comics in my XLS library</string>
-    <string name="help_xls_comics_answer">They are in the second sheet of the file, check it out ;)</string>
+    <string name="help_import_xls_required_format_answer">El documento Excel a ser importado debe tener un formato en particular para poder ser importado. La mejor forma de ver este formato es añadiendo por lo menos un libro a su biblioteca, hacer un exporte de Excel y ver el formato del documento Excel que ha sido exportado. El formato del documento exportado es el mismo al formato requerido para importe.</string>
+    <string name="help_incomplete_xls_file_question">¡Mi archivo XLS exportado no esta completo!</string>
+    <string name="help_incomplete_xls_file_answer">El archivo XLS esta bien, el problema es su ordernador. Trate de prender y apagar su telefono y eso debera resolver su problema.</string>
+    <string name="help_xls_comics_question">No encuentro mis comics en la biblioteca XLS.</string>
+    <string name="help_xls_comics_answer">Los comics estan en la segunda hoja del archivo, verifiquelo. ;)</string>
     <string name="help_mylibrary.db_question">What type of file \'mylibrary.db\' is? Can I read it from my computer?</string>
     <string name="help_mylibrary_db_answer">\'mylibrary.db\' is a database file corresponding to your library. You can read it on a computer with SqliteBrowser, then export it as a CSV file, but I recommend to use the in-app XLS export instead.</string>
     <!--<string name="help_roadmap_question">What is your roadmap for My Library?</string>-->
     <!--<string name="help_roadmap_answer"><![CDATA[The next updates will probably features :<br />- Wishlist<br />- Some cloud sync<br />- … and a lot more!]]></string>-->
     <string name="help_rating_question">¿Why is it important to rate the app 5 stars on Google Play if you like it?</string>
     <string name="help_rating_answer"><![CDATA[By rating the app 5 stars on Google Play, you support the creation of this independent, free and ad-free application. I am developping it on my free time so please, if you like it, do not hesitate! <a href=\"market://details?id=com.vgm.mylibrary\">You can click here to rate it.</a>]]></string>
-    <string name="help_buy_books_question">¿Is there any other way to help the application?</string>
-    <string name="help_buy_books_answer">Yes! If you buy books directly with the Amazon links that are in your wishlist, I will receive a very small percentage of the transaction (usually less than 0.5$). You will pay the same price so it will make no difference to you, but it could make a difference to me. Therefore if you usually buy books on Amazon, do not hesitate to do it within My Library. Thank you!</string>
+    <string name="help_help_app_question">¿Is there any other way to help the application?</string>
+    <!--<string name="help_help_app_answer">Yes! If you buy books directly with the Amazon links that are in your wishlist, I will receive a very small percentage of the transaction (usually less than 0.5$). You will pay the same price so it will make no difference to you, but it could make a difference to me. Therefore if you usually buy books on Amazon, do not hesitate to do it within My Library. Thank you!</string>-->
     <string name="help_contact_question">The answer to my question is not here!</string>
     <string name="help_contact_answer"><![CDATA[If you are sure that your question is not answered here or within the app\'s description, you can send me a personal email and I will answer you. But please note that I am a single developer working on my free time and that I receive dozens of emails every day, therefore it may take some time before you get a answer. You will be able to find my email on <a href=\"market://details?id=com.vgm.mylibrary\">Google Play.</a>]]></string>
     <string name="help_privacy_policies_question">Where can I read the privacy policies of My Library?</string>
@@ -264,6 +265,7 @@
     <string name="sheet_wishlist">%1$s - %2$s</string>
 
     <!-- Files -->
+    <string name="mylibrary_db">mylibrary.db</string>
     <string name="mylibrary_xls">MyLibrary.xls</string>
     <string name="mylibrary_by_author_xls">MyLibraryByAuthor.xls</string>
     <string name="my_library_images_txt">MyLibraryImages.txt</string>
@@ -281,8 +283,69 @@
     <string name="fnac_link">Fnac link</string>
 
     <!-- To translate -->
+    <string name="export_to_download_folder">Export to Download folder (mandatory)</string>
+    <string name="export_to_dropbox">Export to Dropbox</string>
+    <string name="uploading_to_dropbox">Uploading %s to Dropbox…</string>
+    <string name="error_upload_dropbox_file">An error has occurred uploading %s to Dropbox.</string>
+    <string name="error_upload_dropbox_unknown">An unknown error has occurred during Dropbox upload.</string>
+    <string name="upload_big_file_progress">Uploaded %1$s/%2$s MB (%3$s%%)</string>
+    <string name="saving_images_dropbox_warning">WARNING: Dropbox API is very, very slow to upload files. And MyLibraryImages.txt will be a very big file. Therefore I strongly discouraged you from doing this. I recommend to manually upload this file with the official Dropbox app. Do as you wish, but be aware that the upload will maybe take an insanely amount of time.</string>
 
-    <!--<string name="help_download_directory_question">Where are the \'mylibrary.db\' file and the \'Download\' directory? I can\'t find them!</string>-->
-    <!--<string name="help_download_directory_answer"><![CDATA[Once you\'ve done an export, the exported files (including \'mylibrary.db\' file) are in the \'Download\' directory. <a href=\"systemLink/Download\">Here is a direct access.</a>]]></string>-->
+    <string name="amount">Amount in Euros</string>
+    <string name="euro_symbol">€</string>
+    <string name="make_a_donation">Make a donation</string>
+    <string name="donate_text_1">By donating you are supporting a free and ad-free application and are helping me to support it with new updates. Even a small amount is helping and appreciated. From the bottom of my heart, thank you!</string>
+    <string name="donate_text_2">The donation is made with PayPal, meaning it is completely safe and secure.\n\nIf your currency is not Euro, don\'t worry: once you\'ll be logged in, PayPal will transpose your donation in Euros to an equivalent donation in your currency. Therefore you will have no extra charge and will know exactly how much you donate.</string>
+    <string name="paypal_error">PayPal transaction failed. The payment was unfortunately invalid and PayPal could not proceed with it.</string>
+    <string name="payal_donation_net_value"><![CDATA[<i>The developer will receive <b><font color="#00CC00">%s</font>€</b></i>]]></string>
+    <string name="paypal_donation_fees"><![CDATA[<i>PayPal\'s fee will be %s€</i>]]></string>
+    <string name="paypal_transaction_confirmed">You donation of %s has been received. From the bottom of my heart, thank you!</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="close">Close</string>
+
+    <string name="error_no_camera">There is no camera installed on your phone</string>
+
+    <string name="help_download_directory_question">Where are the exported files and the \'Download\' directory? I can\'t find them!</string>
+    <string name="help_download_directory_answer">Once you\'ve done an export, the exported files are in the \'Download\' directory. The \'Download\' directory is at the root of your phone\'s files. If it does not exist anymore then it is re-created when you do an export, so don\'t worry about that. On some devices, xls or text files seem to be invisible within default Android file browser. To see them, you can either download another file browser (like ES Explorer for example) or download the official Excel / Word apps for Android. But please note that if the app indicates that the files have been saved, then there is absolutely no doubt that they are saved in the \'Download\' folder. It is pure science: this message can\'t be displayed unless these files are actually in that folder!</string>
+
+    <!--Strings updated-->
+    <string name="database_saved">Your library has been successfully exported!</string>
+    <string name="help_help_app_answer"><![CDATA[Yes! First, you can make a donation with PayPal by <a href=\"mylibrary://donate\">clicking here</a>. Then, if you buy books directly with the Amazon links that are in your wishlist, I will receive a very small percentage of the transaction (usually less than 0.5$). You will pay the same price so it will make no difference to you, but it could make a difference to me. Therefore if you usually buy books on Amazon, do not hesitate to do it within My Library. Thank you!]]></string>
+
+    <!-- Google Drive export -->
+    <string name="dropbox">Dropbox</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="export_to_drive">Export to Google Drive</string>
+    <string name="connexion_failed">Connexion failed</string>
+    <string name="error_drive_create_folder">Error while trying to create the %s folder on Google Drive</string>
+    <string name="error_drive_create_content">Error while trying to create %s on Google Drive</string>
+    <string name="drive_upload_complete">Upload to Google Drive complete</string>
+    <string name="drive_upload_in_progress">Upload in progress…</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="log_out_from_google_drive">Log out from Google Drive</string>
+    <string name="log_out_from_dropbox">Log out from Dropbox</string>
+    <string name="warning_log_out">Are you sure that you want to log out from %1$s? You will still able to re-connect to %2$s in the future if you want to.</string>
+    <string name="log_out_success">You\'ve been successfully logged out from %s</string>
+
+    <string name="all_comments">All comments</string>
+    <string name="untitled">Untitled</string>
+    <string name="no_content">No content</string>
+
+    <string name="help_import_xls_blank_line_question">When I try to import my XLS file, the app indicates that line number X has a blank field for title or author and that this is not allowed. But the last line of my file is the line before line X, so that\'s perfectly normal!</string>
+    <string name="help_import_xls_blank_line_answer">This error probably means that you modified your XLS file with OpenOffice or Google Sheets. These applications have different ways to encode their Excel files and that makes them incompatible with Excel import, sorry about that. To fix this problem, just copy and paste your data in a brand new Excel Sheet (into Excel this time), save it and voila! You can now import it.</string>
+
+    <string name="support_my_library">Support My Library</string>
+    <string name="please_support_app">Hello there!\n\nYou’re one of my best users and I really thank you for that.\n\nWould you take a moment to consider making a donation to support the development of the app?\n\nDon’t worry, My Library will remain free and ad-free wherever you chose to support it or not. But as I am only the only person working on it then your support means a lot to me. Thank you!</string>
+    <string name="would_like_but_cant_afford">I\'d like to but I can\'t afford it</string>
+
+    <string name="description_mark_read">Mark book / comic as read</string>
+    <string name="book_marked_as">Book marked as %s</string>
+    <string name="comic_marked_as">Comic marked as %s</string>
+    <string name="unread_book_singular">unread</string>
+    <string name="unread_comic_singular">unread</string>
+    <string name="read_book_singular">read</string>
+    <string name="read_comic_singular">read</string>
 
 </resources>
