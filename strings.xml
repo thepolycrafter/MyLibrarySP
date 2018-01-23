@@ -222,7 +222,7 @@
     <string name="help_isbn_format_question">¿Cuál es el formato de ISBNO requerido?</string>
     <string name="help_isbn_format_answer"><![CDATA[\n Un ejemplo de un ISNB válido: 2–07–042277–1<br />Las líneas son aceptadas para que sean leídas mas fácilmente, pero no son mandatorias. Asi que tendrá el mismo resultado si trata de usar el ISBN en formato: 2070422771. ¡Trátelo!]]></string>
     <string name="help_isbn_apis_question">¿Cómo es que el app encuenta los números de ISBN?</string>
-    <string name="help_isbn_apis_answer">Mi Biblioteca utiliza servicios de Google, Amazon, Open Library, IsbnPlus, Worldcat y Biblio para encontrar números de ISBN y los libros que usted busca. Asi que si un ISBN no es encontrado es porque no ha sido registrado en esos servicios. Desafortunadamente, esto esta fuera de mi control, pero continuaré investigando nuevos servicios de libros y ISBNs. Los mejores seran anadidos en futuras actualizaciones de la aplicación.</string>
+    <string name="help_isbn_apis_answer">Mi Biblioteca utiliza servicios de Google, Amazon, Open Library, IsbnPlus, Worldcat, Moly, data.bn y Biblio para encontrar números de ISBN y los libros que usted busca. Asi que si un ISBN no es encontrado es porque no ha sido registrado en esos servicios. Desafortunadamente, esto esta fuera de mi control, pero continuaré investigando nuevos servicios de libros y ISBNs. Los mejores seran anadidos en futuras actualizaciones de la aplicación.</string>
     <string name="help_improve_database_question">¿Puedo ayudar a mejorar la base de datos de la aplicación?</string>
     <string name="help_improve_database_answer"><![CDATA[¡Sí! Sólo haga una cuenta en <a href=\"https://openlibrary.org\">Open Library</a> y anada libros!]]></string>
     <string name="help_save_data_question">¿Cómo puedo guardar mi data?</string>
@@ -236,11 +236,9 @@
     <string name="help_incomplete_xls_file_question">¡Mi archivo XLS exportado no esta completo!</string>
     <string name="help_incomplete_xls_file_answer">El archivo XLS esta bien, el problema es su ordernador. Trate de prender y apagar su telefono y eso debera resolver su problema.</string>
     <string name="help_xls_comics_question">No encuentro mis comics en la biblioteca XLS.</string>
-    <string name="help_xls_comics_answer">Los comics estan en la segunda hoja del archivo, verifiquelo. ;)</string>
+    <string name="help_xls_comics_answer">Los comics estan en la segunda hoja del archivo, verifiquelo ;)</string>
     <string name="help_mylibrary.db_question">What type of file \'mylibrary.db\' is? Can I read it from my computer?</string>
     <string name="help_mylibrary_db_answer">\'mylibrary.db\' is a database file corresponding to your library. You can read it on a computer with SqliteBrowser, then export it as a CSV file, but I recommend to use the in-app XLS export instead.</string>
-    <!--<string name="help_roadmap_question">What is your roadmap for My Library?</string>-->
-    <!--<string name="help_roadmap_answer"><![CDATA[The next updates will probably features :<br />- Wishlist<br />- Some cloud sync<br />- … and a lot more!]]></string>-->
     <string name="help_rating_question">¿Why is it important to rate the app 5 stars on Google Play if you like it?</string>
     <string name="help_rating_answer"><![CDATA[By rating the app 5 stars on Google Play, you support the creation of this independent, free and ad-free application. I am developping it on my free time so please, if you like it, do not hesitate! <a href=\"market://details?id=com.vgm.mylibrary\">You can click here to rate it.</a>]]></string>
     <string name="help_help_app_question">¿Is there any other way to help the application?</string>
