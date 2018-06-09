@@ -222,7 +222,7 @@
     <string name="help_isbn_format_question">¿Cuál es el formato de ISBNO requerido?</string>
     <string name="help_isbn_format_answer"><![CDATA[\n Un ejemplo de un ISNB válido: 2–07–042277–1<br />Las líneas son aceptadas para que sean leídas mas fácilmente, pero no son mandatorias. Asi que tendrá el mismo resultado si trata de usar el ISBN en formato: 2070422771. ¡Trátelo!]]></string>
     <string name="help_isbn_apis_question">¿Cómo es que el app encuenta los números de ISBN?</string>
-    <string name="help_isbn_apis_answer">Mi Biblioteca utiliza servicios de Google, Amazon, Open Library, IsbnPlus, Worldcat, Moly, data.bn, Libris y Biblio para encontrar números de ISBN y los libros que usted busca. Asi que si un ISBN no es encontrado es porque no ha sido registrado en esos servicios. Desafortunadamente, esto esta fuera de mi control, pero continuaré investigando nuevos servicios de libros y ISBNs. Los mejores seran anadidos en futuras actualizaciones de la aplicación.</string>
+    <string name="help_isbn_apis_answer">Mi Biblioteca utiliza servicios de Google, Amazon, Open Library, IsbnPlus, Worldcat, Moly, data.bn, Libris, Finna y Biblio para encontrar números de ISBN y los libros que usted busca. Asi que si un ISBN no es encontrado es porque no ha sido registrado en esos servicios. Desafortunadamente, esto esta fuera de mi control, pero continuaré investigando nuevos servicios de libros y ISBNs. Los mejores seran anadidos en futuras actualizaciones de la aplicación.</string>
     <string name="help_improve_database_question">¿Puedo ayudar a mejorar la base de datos de la aplicación?</string>
     <string name="help_improve_database_answer"><![CDATA[¡Sí! Sólo haga una cuenta en <a href=\"https://openlibrary.org\">Open Library</a> y anada libros!]]></string>
     <string name="help_save_data_question">¿Cómo puedo guardar mi data?</string>
@@ -370,5 +370,33 @@
     <string name="initialization">Initialization…</string>
     <string name="number_of_images_moved">%s images moved</string>
     <string name="images_moved_success">Images moved successfully</string>
+
+    <!-- v 1.6.0 -->
+    <!-- Buttons, descriptions & Placeholder -->
+    <string name="clear">Clear</string>
+    <string name="description_add_date_from_date_picker">Add date from date picker</string>
+    <string name="placeholder_no_comment">No comment at the moment</string>
+    <string name="placeholder_no_category">No category at the moment</string>
+    <string name="placeholder_empty_list">Your %s is currently empty</string>
+    <string name="book_list">book list</string>
+    <string name="comics_list">comics list</string>
+
+    <!-- OCR -->
+    <string name="launch_ocr">Launch OCR</string>
+    <string name="description_scan_text">Scan text</string>
+    <string name="faq_ocr_question">OCR is not working perfectly. Why?</string>
+    <string name="faq_ocr_answer"><![CDATA[OCR is a technology of text recognition.<br/><br/>My Library uses Google Vision\'s OCR in order to process text. Please note that this technology is a new technology on mobile and that the result is far from being perfect. Depending on the text to scan, the result can be close to exactitude, can need some retakes or can also be completely irrelevant. When new updates of Google Vision will be released by Google, I will add them to the app, meaning that OCR will maybe be really good at some point in the future.<br/><br/>Please note that text recognition will not work in landscape mode if your device rotation is deactivated. Thank you for your comprehension.]]></string>
+
+    <!-- New options -->
+    <string name="reopen_scanner_automatically">Re-open scanner automatically after adding an item to the library</string>
+    <string name="edit_default_comments">Edit default comments</string>
+    <string name="default_comments_description">On this page you can define your own custom comments that will be used by default for each new item that you add within your library.\n\nFor example, if you add \"Localisation\" as a default comment title for books, then all your new books will have a \"Localisation\" field preset in their comments section.</string>
+
+    <!-- Series -->
+    <string name="series_title">Series</string>
+    <string name="description_add_a_series">Add a series</string>
+    <string name="all_series">All series</string>
+    <string name="volume">Volume</string>
+    <string name="error_volume_format">Volume must be a number superior or equal to 1</string>
 
 </resources>
